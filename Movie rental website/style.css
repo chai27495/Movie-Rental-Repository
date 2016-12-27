@@ -1,0 +1,43 @@
+.logo{
+	float:left;
+	margin-top: 34px;
+        
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu li{
+	color: #FBFAFA;
+	background: url(menu-hover.png) 0 0 repeat-x #0A85CA;
+	border: none;
+	width: 192px;
+	float:left;
+}
+.menu li a{
+	display: block;
+	color: #0060A3;
+	padding: 17px 0 16px;
+	min-height: 26px;
+	height: auto !important;
+	height: 26px;
+	background: url(menu.png) 0 0 repeat-x #E5E5E5;
+	width:192px;
+	text-align: center;
+	font-size:18px;
+	font-weight:bold;
+	font-family: 'Armata', sans-serif;
+	
+}
+.menu li.active a,
+.menu li a:hover{
+	background: url(../images/menu-hover.png) 0 0 repeat-x #352115;
+	color: #FBFAFA;
+}
